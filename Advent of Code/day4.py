@@ -17,6 +17,19 @@ def findAdjecent(postions):
             if sub_count < 4 and row[i] == "@":
                 count+= 1
     return count
+#Problem Breakdown - In given string including "." and "@", we have to count how many of "@" are surrounded by less than 4 @s.
+#For example, 
+#..@@.@@@@.
+#@@@.@.@.@@
+#@@@@@.@.@@ have 7 @ that are surrounded by less than 4 @s. 
+#..xx.xx@x.
+#x@@.@.@.@@
+#@@@@@.x.@@
+
+#My solution - 
+
+
+
 
 puzzle_input = '''@@.@@.@.@@@@@@@.@@.@.@@.@.@@@.@@@@@@@.@@@.@.@@.@@@....@@.@@@@.@@@@@.@@@@.@...@@@.@@@@@@@.@.@@...@@.@@@..@@...@.@@@@@@.@@@.@.@...@.@@@@@@
 @@.@@@@.@@@@@@@@@@.@@.@@.@..@@.@@@@@.@@@@@@.@@@@..@@@.@@@@..@@@@@..@@.@@@.@@.@@@.@@..@.@@..@@@@.@@@..@.@@@@@@@.@@.@@.@@.@..@@@@.@@.@@.@.
