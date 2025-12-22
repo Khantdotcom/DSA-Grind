@@ -5,7 +5,6 @@ def findLargestCombo(num_str):
         if ch not in index_dict:
             index_dict[ch] = []
         index_dict[ch].append(idx)
-    for i in 
     result = ""
     while True:
         biggest_num = None
@@ -26,5 +25,3 @@ def findLargestCombo(num_str):
         result += str(biggest_num)
         index_dict[biggest_num].pop(0)
     return result
-    
-print(findLargestCombo("4243411423211141423114142211242211313243142414412343314441331444324234332241124232434314434334456789"))
