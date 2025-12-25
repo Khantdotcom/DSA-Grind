@@ -1,2 +1,3 @@
 def checkrange(puzzle):
- data_ranges , nums = puzzle.strip('/n')
+ data_ranges , nums = puzzle.strip('/n').striplines()
+ ie
